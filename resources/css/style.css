@@ -18,11 +18,13 @@ h1 {
   font-size: 14px;
   font-weight: bold;
   color: MediumAquamarine;
-  width: 75%;
+  width: 70%;
   height: 50px;
   display: inline-flex;
   align-items: center;
   padding-left: 10px;
+  padding-right: 0px;
+  margin-right: 0px;
   border: 1px solid black;
 }
 
@@ -30,6 +32,8 @@ h1 {
   display: inline-flex;
   flex-wrap: none;
   justify-content: flex-start;
+  margin-left: 0px;
+  padding-left: 0px;
 }
 
 
@@ -37,7 +41,9 @@ h1 {
   display: inline-block;
   flex-direction: row;
   list-style: none;
+  margin-left: 0px;
   margin-right: 20px;
+  padding-left: 0px;
 }
 
 li a {
@@ -51,7 +57,9 @@ li a {
 .column {
   width: 100%;
   display: flex;
+  justify-content: center;
   border: 1px solid black;
+  padding-top: 20px;
 }
 
 .large {
@@ -72,3 +80,49 @@ li a {
   border: 1px solid black;
 }
 
+.mother p {
+  border: 1px solid black;
+  margin: 0px;
+}
+
+.mother .p2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.orca {
+  border: 1px solid black;
+}
+
+.orca .earth {
+  border: 1px solid black;
+  margin: 0px;
+}
+
+.burger {
+  border: 1px solid black;
+}
+
+.burger .research {
+  border: 1px solid black;
+  margin: 0px;
+}
+
+.fbi {
+  border: 1px solid black;
+}
+
+.cats {
+  border: 1px solid black;
+  margin: 0px;
+}
+
+.newbites {
+  border: 1px solid black;
+}
+
+.newbites img{
+  width: 228px;
+  height: 228px;
+  border: 1px solid black;
+}
